@@ -2,7 +2,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-token = "B2lssd8Jwee3mumaTwLLMfUKHMKXCcAkc3FGTH7C1Gc" 
+token = "你的TOKEN" 
 response = requests.get("https://rate.bot.com.tw/gold?Lang=zh-TW")
 soup = BeautifulSoup(response.text, "html.parser")
 
